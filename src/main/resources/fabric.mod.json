@@ -1,1 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "autopot",
+  "version": "1.0.0",
+  "name": "AutoPot",
+  "description": "Automatically throws splash potions using a keybind.",
+  "authors": ["TaxEvader65"],
+  "environment": "client",
 
+  "entrypoints": {
+    "client": [
+      "com.taxevader65.autopot.AutoPot"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.18.x",
+    "minecraft": "1.21.x",
+    "fabric-api": "*"
+  }
+}
