@@ -1,1 +1,7 @@
-
+{
+  "required": false,
+  "package": "com.taxevader65.autopot.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": []
+}
